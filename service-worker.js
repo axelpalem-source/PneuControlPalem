@@ -3,7 +3,8 @@ const CACHE_NAME = "pneucontrolpalem-v1";
 const FILES_TO_CACHE = [
   "./",
   "./index.html",
-  "./manifest.webmanifest"
+  "./manifest.webmanifest",
+  "./icon.svg"
 ];
 
 self.addEventListener("install", (event) => {
